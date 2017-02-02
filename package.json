@@ -1,0 +1,27 @@
+{
+  "name": "usong",
+  "version": "0.0.1",
+  "description": "A Telegram bot that recognise if you cite a song",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/huvber/usong"
+  },
+  "keywords": [
+    "bot",
+    "telegram",
+    "musixmatch",
+    "nodejs",
+    "lyrics"
+  ],
+  "author": "huvber",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^1.6.3",
+    "telegraf": "^3.6.5"
+  }
+}
